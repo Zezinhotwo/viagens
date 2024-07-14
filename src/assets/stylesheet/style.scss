@@ -92,8 +92,13 @@ nav.menu a {
         width: 40px;
     }
     main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
         padding: 0 1em;
-        section {
+        .section1 {
             margin-top: 2em;
             width: 100%;
             display: flex;
@@ -136,7 +141,7 @@ nav.menu a {
                     flex-direction: row;
                     button {
                         color: white;
-                        background-color: #F1A501;
+                        background-color: #f1a501;
                         border: none;
                         border-radius: 10px;
                         font-size: medium;
@@ -148,6 +153,31 @@ nav.menu a {
             }
             .imgMain {
                 width: 100%;
+            }
+        }
+        // section 2
+        .section2 {
+            margin-top: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .title1 {
+            text-align: center;
+        }
+        .pai-item {
+            .item {
+                margin-top: 1em;
+                border-radius: 20px;
+                height: 300px;
+                box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.336);
+                padding: 1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                flex-direction: column;
             }
         }
     }
