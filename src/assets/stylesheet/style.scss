@@ -144,10 +144,10 @@ nav.menu a {
                         background-color: #f1a501;
                         border: none;
                         border-radius: 10px;
-                        font-size: medium;
+                        font-size: 12px;
                         font-weight: bold;
                         font-style: normal;
-                        padding: 5% 1.5em;
+                        padding: 5% 10%;
                     }
                 }
             }
@@ -163,7 +163,8 @@ nav.menu a {
             justify-content: center;
             flex-direction: column;
         }
-        .title1 {
+        .titles {
+            margin: 1em auto;
             text-align: center;
         }
         .pai-item {
@@ -171,10 +172,39 @@ nav.menu a {
                 margin-top: 1em;
                 border-radius: 20px;
                 height: 300px;
-                box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.336);
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
                 padding: 1em;
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+        }
+        .section3 {
+            margin-top: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .destination {
+                width: 109%;
+            }
+         
+        }
+        .section4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .icones {
+                height: 300px;
+                margin-top: 1em;
+                border-radius: 20px;
+                padding: 1em;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.336);
+                display: flex;
+                align-items:center;
                 justify-content: center;
                 justify-content: space-around;
                 flex-direction: column;
